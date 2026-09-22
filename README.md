@@ -26,6 +26,7 @@ Para o funcionamento correto do sistema, são necessárias as seguintes bibliote
 - [OpenPyXL](https://openpyxl.readthedocs.io/) — Leitura, escrita e formatação avançada de arquivos Excel (`.xlsx`), incluindo aplicação de estilos condicionais.
 - [Pillow (PIL)](https://python-pillow.org/) — Processamento e renderização de imagens (PNG/JPG) para exibição na interface gráfica.
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) — Biblioteca nativa do Python para construção da interface gráfica (janelas, botões e campos de texto).
+- [PyInstaller](https://pyinstaller.org/?utm_source=gemini) - Empacotamento da aplicação em um executável autônomo (.exe).
 - **Sys** e **Os** — Módulos nativos para gerenciamento de caminhos de arquivos e recursos do sistema operacional.
 
 ---
@@ -56,6 +57,16 @@ seu_projeto/
   Dessa forma, a tela se ajustará automaticamente ocultando o espaço da logotipo.
 
 ---
+
+## 💻 Como Executar o Sistema
+
+1. Certifique-se de que as dependências estão devidamente instaladas com o comando pip install -r requirements.txt[cite: 3].
+
+2. Execute o arquivo principal de inicialização a partir da raiz do projeto:
+
+```Bash
+python app.py
+```
 
 ## 💻 Como Usar a Interface Gráfica
 
